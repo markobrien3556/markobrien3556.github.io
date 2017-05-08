@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.title{
+	background-color: lightblue
+}
+
+body{
+	background-color: bisque;
+}
+
+.container-fluid{
+	background-color: lightblue
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	
+	background-color: lightgrey;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightblue;
+}
+
+li{
+	float: left;
+}
+
+
+li a:hover:not(.active) {
+	background-color: white;
+}
+
+.active{
+	background-color: lightgrey;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.carousel{
+	width: 43%;
+	left:25%;
+}
+
+.carousel .item{
+	 height: 535px;
+	width: 800px;
+}
+
+.carousel-inner > .item > .img{
+	width: 100%
+}
+
+.itm img {
+	position:absolute;
+	top: 0;
+	left: 0;
+	min-height: 800px;
+}
+
+h2{
+	background-color: lightblue
+}
+
+.img-circle{
+	position: relative;
+	left: 125px;
+	top: -30px;
+}
+
+p{
+	color: black;
+	background-color: lightblue;
+	font-size: 24px;
+	font-family: 'Rosario';
+}
+
+.container{
+	position: relative;
+	left: 250px;
+	top: 10px;
+	height: 100px;
+	width: 940px;
+}
+
+
+.html{
+	height: 100%;
+}
+
+
+<div class="row-fluid">
+	<ul class="thumbnails">
+		<li class="span4">
+			<article class="thumbnail col-lg-5">
+				<img src="images/flourescent.jpg" alt="pic of bottle">
+			</article>
+		</li>
+		
+		<li class="span4">
+			<article class="thumbnail col-lg-5">
+				<img src="images/Tungsten.jpg" alt="Raindrops on a window">
+			</article>
+		</li>
+		
+		<li class="span4">
+			<article class="thumbnail col-lg-5">
+				<img src="images/Shade.jpg" alt="A photo showing a contrast in shade">
+			</article>
+		</li>
+		
+		<li class="span4">
+			<article class="thumbnail col-lg-5">
+				<img src="images/Cloudy weather.jpg" alt="A photo showing cloudy weather">
+			</article>
+		</li>		
+				
+		<li class="span4">
+			<article class="thumbnail col-lg-5">
+				<img src="images/flash.jpg" alt="A photo displaying the effects of the flash on a camera">
+			</article>
+		</li>				
+						
+		<li class="span4">
+			<article class="thumbnail col-lg-5">
+				<img src="images/auto_daylight.JPG" alt="A phtoto showing light on a path">
+			</article>
+		</li>						
+								
+			<li class="span4">
+			<article class="thumbnail col-lg-5">
+				<img src="images/Cloudy_1.JPG" alt="clouds in the sky">
+			</article>
+		</li>																																	
+	</ul>
+</div>
+
+
+
+
+
+
